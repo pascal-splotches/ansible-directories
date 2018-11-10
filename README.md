@@ -1,6 +1,10 @@
 # ansible-directories
 
-![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square) [![Build Status](https://travis-ci.com/pascal-splotches/ansible-directories.svg?token=j64tNWXvoHs3JnnJwDKC&branch=master)](https://travis-ci.com/pascal-splotches/ansible-directories)
+[![Travis CI](https://img.shields.io/travis/com/pascal-splotches/ansible-directories.svg?style=flat-square)](https://travis-ci.com/pascal-splotches/ansible-directories)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/pascal-splotches/ansible-directories.svg?style=flat-square)](https://github.com/pascal-splotches/ansible-directories/releases)
+[![Ansible Role](https://img.shields.io/ansible/role/32495.svg?style=flat-square)](https://galaxy.ansible.com/pascal_splotches/directories)
+![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-brightgreen.svg?style=flat-square)
+[![GitHub License](https://img.shields.io/github/license/pascal-splotches/ansible-directories.svg?style=flat-square)](https://github.com/pascal-splotches/ansible-directories/blob/master/LICENSE)
 
 Create pre-defined directory structures.
 
