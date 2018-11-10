@@ -1,0 +1,21 @@
+---
+- name: Create directories relative to home
+  file: path="/Users/{{ item[0] }}/{{ item[1].path }}"
+        owner="{{ item[0] }}"
+        mode="{{ item[1].mode | default(0700) }}"
+        recurse=yes
+        follow=yes
+        state=directory
+  with_nested:
+  - "{{ users }}"
+  - "{{ directories.relative | default([]) }}"
+
+- name: Create absolute directories
+  file: path="{{ item.path }}"
+        owner="{{ item.owner | default('root') }}"
+        mode="{{ item.mode | default(0700) }}"
+        recurse=yes
+        follow=yes
+        state=directory
+  with_items:
+  - "{{ directories.absolute | default([]) }}"
