@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: splotches.directories
+  role_name: directories
   author: Pascal Scheepers
   description: Create pre-defined directory structures.
   company: Splotches
