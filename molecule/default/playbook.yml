@@ -1,0 +1,39 @@
+---
+- name:  Converge
+  hosts: all
+
+  become: true
+
+  roles:
+  - role: splotches.directories
+
+  - role: splotches.directories
+    directories:
+      relative:
+      - path: relative/home/directory/test
+      - path: relative/home/test
+        mode: 0777
+
+  - role: splotches.directories
+    directories:
+      absolute:
+      - path: /tmp/absolute/directory/test
+      - path: /tmp/absolute/directory/test2
+        mode: 0777
+      - path:  /tmp/absolute/directory/test3/test
+        owner: "{{ ansible_user_id }}"
+        mode: 0777
+
+  - role: splotches.directories
+    directories:
+      relative:
+      - path: relative-and-absolute/home/directory/test
+      - path: relative-and-absolute/home/test
+        mode: 0777
+      absolute:
+      - path: /tmp/relative-and-absolute/directory/test
+      - path: /tmp/relative-and-absolute/directory/test2
+        mode: 0777
+      - path:  /tmp/relative-and-absolute/directory/test3/test
+        owner: "{{ ansible_user_id }}"
+        mode:  0777

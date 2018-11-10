@@ -1,6 +1,6 @@
 # ansible-directories
 
-![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)
+![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square) [![Build Status](https://travis-ci.com/pascal-splotches/ansible-directories.svg?token=j64tNWXvoHs3JnnJwDKC&branch=master)](https://travis-ci.com/pascal-splotches/ansible-directories)
 
 Create pre-defined directory structures.
 
