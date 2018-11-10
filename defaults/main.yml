@@ -1,6 +1,6 @@
 ---
 users:
-- '{{ ansible_user_id }}'
+  - '{{ ansible_user_id }}'
 directories:
   relative: []
   absolute: []

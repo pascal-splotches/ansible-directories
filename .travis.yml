@@ -1,18 +1,18 @@
 ---
-  language: python
-  services: docker
+language: python
+services: docker
 
-  install:
+install:
   - pip install molecule docker
 
-  before_script:
-    # Rename to Ansible Galaxy role name
+before_script:
+  # Rename to Ansible Galaxy role name
   - cd ../
   - mv ansible-directories splotches.directories
   - cd splotches.directories
 
-  script:
-    - molecule test
+script:
+  - molecule test
 
-  notifications:
-    webhooks: https://galaxy.ansible.com/api/v1/notifications/
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/

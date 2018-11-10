@@ -1,25 +1,25 @@
 ---
 galaxy_info:
-  role_name:   splotches.directories
-  author:      Pascal Scheepers
+  role_name: splotches.directories
+  author: Pascal Scheepers
   description: Create pre-defined directory structures.
-  company:     Splotches
+  company: Splotches
 
   license: GPLv3
 
   min_ansible_version: 2.7.1
 
   platforms:
-  - name: MacOSX
-    versions:
-    - 10.10
-    - 10.11
-    - 10.12
-    - 10.13
-    - 10.14
+    - name: MacOSX
+      versions:
+        - 10.10
+        - 10.11
+        - 10.12
+        - 10.13
+        - 10.14
 
   galaxy_tags:
-  - system
-  - structure
-  - directories
-  - osx
+    - system
+    - structure
+    - directories
+    - osx
