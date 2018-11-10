@@ -35,7 +35,7 @@ directories:
 
 ## Versioning
 
-We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository]().
+We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [releases on this repository](https://github.com/pascal-splotches/ansible-directories/releases).
 
 ## Authors
 
